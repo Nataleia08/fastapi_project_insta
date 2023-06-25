@@ -1,0 +1,16 @@
+fastapi
+psycopg2-binary
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+libgravatar
+fastapi-mail
+redis
+fastapi-limiter
+cloudinary
+sqlalchemy
+pydantic[dotenv]
+qrcode
+pillow
+email-validator
+pycryptodome

@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "fastapi-project-insta"
+version = "0.1.0"
+description = ""
+authors = ["Nataleia Orlovska <101810309+Nataleia08@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_project_insta"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.98.0"}
+uvicorn = "^0.22.0"
+sqlalchemy = "^2.0.17"
+alembic = "^1.11.1"
+#psycopg2 = "*"
+jinja2 = "^3.1.2"
+libgravatar = "^1.0.4"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.6"
+python-dotenv = "^1.0.0"
+pillow = "^9.5.0"
+#psycopg2-binary = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

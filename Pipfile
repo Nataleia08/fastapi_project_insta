@@ -8,7 +8,7 @@ fastapi = {extras = ["all"], version = "*"}
 uvicorn = "*"
 sqlalchemy = "*"
 alembic = "*"
-psycopg2 = "*"
+#psycopg2 = "*"
 jinja2 = "*"
 libgravatar = "*"
 python-jose = {extras = ["cryptography"], version = "*"}
@@ -21,7 +21,7 @@ postgres = "*"
 pydantic = "*"
 email-validator = "*"
 pycryptodome = "*"
-jose = "*"
+#jose = "*"
 qrcode = "*"
 pillow = "*"
 
